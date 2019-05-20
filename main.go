@@ -776,6 +776,7 @@ func (s *DB) clone() *DB {
 		parent:            s.parent,
 		logger:            s.logger,
 		logMode:           s.logMode,
+		logCtx:            s.logCtx,
 		Value:             s.Value,
 		Error:             s.Error,
 		blockGlobalUpdate: s.blockGlobalUpdate,
